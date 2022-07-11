@@ -67,7 +67,7 @@
 						</div>
 					</div>
 				</li>
-				<li class="nav-item">
+				<!-- <li class="nav-item">
 					<a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#Pengajuan" aria-expanded="true" aria-controls="Pengajuan">
 						<i class="fas fa-database"></i>
 						<span>Pengajuan Gaji Berkala</span>
@@ -78,8 +78,8 @@
 							<a class="collapse-item" href="<?= base_url('user/history_pengajuan') ?>">History</a>
 						</div>
 					</div>
-				</li>
-				<li class="nav-item">
+				</li> -->
+				<!-- <li class="nav-item">
 					<a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#Absensi" aria-expanded="true" aria-controls="Absensi">
 						<i class="fas fa-database"></i>
 						<span>Absensi</span>
@@ -90,7 +90,7 @@
 							<a class="collapse-item" href="<?= base_url('user/absen') ?>">Riwayat Absensi</a>
 						</div>
 					</div>
-				</li>
+				</li> -->
 				<li class="nav-item">
 					<a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#ATK" aria-expanded="true" aria-controls="ATK">
 						<i class="fas fa-database"></i>

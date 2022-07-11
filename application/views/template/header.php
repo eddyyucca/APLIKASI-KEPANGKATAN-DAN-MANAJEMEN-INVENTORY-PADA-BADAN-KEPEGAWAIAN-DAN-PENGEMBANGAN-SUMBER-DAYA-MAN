@@ -68,6 +68,19 @@
 					</div>
 				</li>
 				<!-- <li class="nav-item">
+					<a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#Permintaan" aria-expanded="true" aria-controls="Permintaan">
+						<i class="fas fa-database"></i>
+						<span>Permintaan</span>
+					</a>
+					<div id="Permintaan" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+						<div class="bg-white py-2 collapse-inner rounded">
+							<a class="collapse-item" href="<?= base_url('admin/jabatan') ?>">Data Jabatan</a>
+							<a class="collapse-item" href="<?= base_url('admin/bidang') ?>">Data Bidang</a>
+							<a class="collapse-item" href="<?= base_url('atk/view_data') ?>">Data ATK</a>
+						</div>
+					</div>
+				</li> -->
+				<li class="nav-item">
 					<a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
 						<i class="fas fa-fw fa-folder"></i>
 						<span>Order</span>
@@ -79,8 +92,8 @@
 
 						</div>
 					</div>
-				</li> -->
-				<!-- <li class="nav-item">
+				</li>
+				<li class="nav-item">
 					<a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo2" aria-expanded="true" aria-controls="collapseTwo2">
 						<i class="fas fa-table"></i>
 						<span>Laporan Order ATK</span>
@@ -93,7 +106,7 @@
 							<a class="collapse-item" href="<?= base_url('order/order_ditolak') ?>">Order Ditolak</a>
 						</div>
 					</div>
-				</li> -->
+				</li>
 				<li class="nav-item">
 					<a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pegawai" aria-expanded="true" aria-controls="pegawai">
 						<i class="fas fa-database"></i>
@@ -107,7 +120,7 @@
 				</li>
 				<!-- Divider -->
 				<hr class="sidebar-divider d-none d-md-block">
-				<!-- <li class="nav-item">
+				<li class="nav-item">
 					<a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#Pengajuan" aria-expanded="true" aria-controls="Pengajuan">
 						<i class="fas fa-database"></i>
 						<span>Pengajuan Gaji Berkala</span>
@@ -120,7 +133,21 @@
 							<a class="collapse-item" href="<?= base_url('admin/pengajuan_tahun') ?>">Pengajuan Tahun <?= date('Y') ?></a>
 						</div>
 					</div>
-				</li> -->
+				</li>
+				<li class="nav-item">
+					<a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pangkat" aria-expanded="true" aria-controls="pangkat">
+						<i class="fas fa-database"></i>
+						<span>Pengajuan Pangkat</span>
+					</a>
+					<div id="pangkat" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+						<div class="bg-white py-2 collapse-inner rounded">
+							<a class="collapse-item" href="<?= base_url('admin/cek_pengajuan') ?>">Pengajuan Baru</a>
+							<a class="collapse-item" href="<?= base_url('admin/semua_pengajuan_diterima') ?>">Pengajuan Diterima</a>
+							<a class="collapse-item" href="<?= base_url('admin/semua_pengajuan_ditolak') ?>">Pengajuan Ditolak</a>
+							<a class="collapse-item" href="<?= base_url('admin/pengajuan_tahun') ?>">Pengajuan Tahun <?= date('Y') ?></a>
+						</div>
+					</div>
+				</li>
 				<!-- Divider -->
 				<hr class="sidebar-divider d-none d-md-block">
 
