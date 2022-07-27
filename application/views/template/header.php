@@ -119,11 +119,11 @@
 					</div>
 				</li>
 				<!-- Divider -->
-				<!-- <hr class="sidebar-divider d-none d-md-block">
+				<hr class="sidebar-divider d-none d-md-block">
 				<li class="nav-item">
 					<a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#Pengajuan" aria-expanded="true" aria-controls="Pengajuan">
 						<i class="fas fa-database"></i>
-						<span>Pengajuan Gaji Berkala</span>
+						<span>Pengajuan Pangkat</span>
 					</a>
 					<div id="Pengajuan" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
 						<div class="bg-white py-2 collapse-inner rounded">
@@ -133,7 +133,7 @@
 							<a class="collapse-item" href="<?= base_url('admin/pengajuan_tahun') ?>">Pengajuan Tahun <?= date('Y') ?></a>
 						</div>
 					</div>
-				</li> -->
+				</li>
 				<!-- <li class="nav-item">
 					<a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pangkat" aria-expanded="true" aria-controls="pangkat">
 						<i class="fas fa-database"></i>
