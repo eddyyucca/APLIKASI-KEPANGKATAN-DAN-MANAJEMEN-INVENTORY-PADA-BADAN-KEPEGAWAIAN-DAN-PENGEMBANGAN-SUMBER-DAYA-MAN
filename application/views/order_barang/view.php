@@ -62,6 +62,7 @@
 										<td colspan='6' align="center">
 
 
+											<a href="<?= base_url('order_barang/ket/') . $k->id_keranjang ?>"><i class="btn btn-primary"> Tambah Keterangan</i></a>
 											<a href="<?= base_url('order_barang/diterima/') . $k->id_keranjang ?>"><i class="btn btn-primary"> DI Terima</i></a>
 
 											<a href="<?= base_url('order_barang/ditolak/') . $k->id_keranjang ?>"><i class="btn btn-danger">DI Tolak</i></a>

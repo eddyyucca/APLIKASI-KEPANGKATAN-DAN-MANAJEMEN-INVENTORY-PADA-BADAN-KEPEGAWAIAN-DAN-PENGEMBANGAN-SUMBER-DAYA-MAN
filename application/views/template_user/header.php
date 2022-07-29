@@ -105,6 +105,18 @@
 						</div>
 					</div>
 				</li>
+				<li class="nav-item">
+					<a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#Pengajuan" aria-expanded="true" aria-controls="Pengajuan">
+						<i class="fas fa-database"></i>
+						<span>Pengajuan Pangkat</span>
+					</a>
+					<div id="Pengajuan" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+						<div class="bg-white py-2 collapse-inner rounded">
+							<a class="collapse-item" href="<?= base_url('user/pengajuan') ?>">Pengajuan</a>
+							<a class="collapse-item" href="<?= base_url('user/history_pengajuan') ?>">History</a>
+						</div>
+					</div>
+				</li>
 				<!-- Divider -->
 				<hr class="sidebar-divider d-none d-md-block">
 
